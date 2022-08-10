@@ -4,118 +4,169 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width-device-width, initial-scale=1.0" />
-    <title>Studio</title>
+    <meta
+      name="description"
+      content="WebStudio - Efektywne rozwiązania dla Twojego biznesu"
+    />
+    <title>WebStudio</title>
   </head>
   <body>
     <header>
       <nav>
-        <!--Z tym logo na razie nie wiem-->
-        <a href="index.html"><logo>WebStudio</logo></a>
-        Agencja Portfolio Kontakt
-        <!--Logo w <header> i stopce to link z tekstem, a nie obraz.-->
-        <!--«B7» Tag <nav> został użyty raz na stronie - w <header>.-->
-        <!--«B8» Kontakty w <header> (poczta i telefon) znajdują się poza tagiem <nav>.-->
+        <a href="index.html" class="logo"><h3 class="bluelogo">Web<span class="whitelogo">Studio</span></a>
+        <a href="*" class="bluelink">Agencja</a>
+        <a href="*" class="bluelink">Portfolio</a>
+        <a href="#contact" class="bluelink">Kontakt</a>
       </nav>
+      <address>
+        <a href="mailto:info@devstudio.com" class="bluelink"
+          >info@devstudio.com</a
+        >
+        <a href="tel:+48111111111" class="bluelink">+48 111 111 111</a>
+      </address>
     </header>
     <main>
-      <!--«B9» Tag <h1> został użyty jeden raz na stronie-->
-      <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-      <!-- kilka div albo tych drugich obok siebie żeby stworzyć "nasze atuty"-->
-      <!-- «B10» Element z tekstem "Zamów usługę" - to przycisk z type="button". -->
-      <p>
-        <span
-          ><h3>LOREM IPSUM</h3>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu
-          sem. Sed non sodales dui. Interdum et malesuada</span
-        ><span
-          ><h3>LOREM IPSUM</h3>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu
-          sem. Sed non sodales dui. Interdum et malesuada</span
-        ><span
-          ><h3>LOREM IPSUM</h3>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu
-          sem. Sed non sodales dui. Interdum et malesuada</span
-        ><span
-          ><h3>LOREM IPSUM</h3>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu
-          sem. Sed non sodales dui. Interdum et malesuada</span
-        >
-      </p>
+      <section>
+        <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+        <button type="button">Zamów usługę</button>
+      </section>
+      <section>
+        <ul>
+          <li>
+            <h3>LOREM IPSUM</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+              arcu sem. Sed non sodales dui. Interdum et malesuada
+            </p>
+          </li>
+
+          <li>
+            <h3>LOREM IPSUM</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+              arcu sem. Sed non sodales dui. Interdum et malesuada
+            </p>
+          </li>
+
+          <li>
+            <h3>LOREM IPSUM</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+              arcu sem. Sed non sodales dui. Interdum et malesuada
+            </p>
+          </li>
+
+          <li>
+            <h3>LOREM IPSUM</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+              arcu sem. Sed non sodales dui. Interdum et malesuada
+            </p>
+          </li>
+        </ul>
+      </section>
       <div>
         <h2>Czym się zajmujemy</h2>
-        <span>
-          <img
-            src="images/eff34a388bbc6409758a002e5a58c3ca.jpg"
-            width="370px"
-            height="294px"
-            alt="Osoba pisząca kod"
-          />
-        </span>
-        <span>
-          <img
-            src="images/fe209b7db875477ca0f844823574082d.jpg"
-            width="370px"
-            height="294px"
-            alt="Osoba dostosowująca kod do wyświetlania na urządzeniu mobilnym"
-          />
-        </span>
-        <span>
-          <img
-            src="images/ff490664ba91f138b9f708e01d65306a.jpg"
-            width="370px"
-            height="294px"
-            alt="Osoba wybierająca kod z palety kolorów"
-          />
-        </span>
-        <!--«B11»
-          Nagłówki
-          sekcji
-          są
-          oznaczone
-          tagiem
-          <h2
-        />.-->
-        <!--«B12» Tagi <img> mają atrybuty wymiarów, co najmniej width i height.-->
-        <!--«B13» Tagi <img> mają atrybut alt, który jest wypełniony krótkim opisem tego, co jest pokazane na obrazku-->
+
+        <ul>
+          <li class="photo-csz">
+            <img
+              src="images/eff34a388bbc6409758a002e5a58c3ca.jpg"
+              width="370"
+              height="294"
+              alt="Osoba pisząca kod"
+            />
+          </li>
+
+          <li class="photo-csz">
+            <img
+              src="images/fe209b7db875477ca0f844823574082d.jpg"
+              width="370"
+              height="294"
+              alt="Osoba dostosowująca kod do wyświetlania na urządzeniu mobilnym"
+            />
+          </li>
+
+          <li class="photo-csz">
+            <img
+              src="images/ff490664ba91f138b9f708e01d65306a.jpg"
+              width="370"
+              height="294"
+              alt="Osoba wybierająca kod z palety kolorów"
+            />
+          </li>
+        </ul>
       </div>
       <div>
         <h2>Nasz zespół</h2>
-        <span
-          ><img
-            src="images/01b0562402f9066520924acac0be8dc7.jpg"
-            width="270"
-            height="260"
-            alt="Zdjęcie pana John Doe"
-        /></span>
-        <span
-          ><img
-            src="images/8ed9ff0c05008e3e7ae5285b05efd211.jpg"
-            width="270"
-            height="260"
-            alt="Zdjęcie pani John Doe"
-        /></span>
-        <span
-          ><img
-            src="images/c03fb848ed9dfc89543bbe97156c3661.jpg"
-            width="270"
-            height="260"
-            alt="Zdjęcie pana John Doe"
-        /></span>
-        <span
-          ><img
-            src="images/7ff905b2d5f56aa0d2b29aa48e997cd8.jpg"
-            width="270"
-            height="260"
-            alt="Zdjęcie pana John Doe"
-        /></span>
-        <!--«B11» Nagłówki sekcji są oznaczone tagiem <h2>.-->
-        <!--«B12» Tagi <img> mają atrybuty wymiarów, co najmniej width i height.-->
-        <!--«B13» Tagi <img> mają atrybut alt, który jest wypełniony krótkim opisem tego, co jest pokazane na obrazku-->
+
+        <ul>
+          <li class="teamcard">
+            <figure>
+              <img
+                src="images/01b0562402f9066520924acac0be8dc7.jpg"
+                width="270"
+                height="260"
+                alt="Zdjęcie pana John Doe"
+              />
+              <figcaption>
+                <strong>John Doe</strong> <br />
+                Product Designer
+              </figcaption>
+            </figure>
+          </li>
+
+          <li class="teamcard">
+            <figure>
+              <img
+                src="images/8ed9ff0c05008e3e7ae5285b05efd211.jpg"
+                width="270"
+                height="260"
+                alt="Zdjęcie pani John Doe"
+              />
+              <figcaption>
+                <strong>John Doe</strong> <br />
+                Frontend Developer
+              </figcaption>
+            </figure>
+          </li>
+
+          <li class="teamcard">
+            <figure>
+              <img
+                src="images/c03fb848ed9dfc89543bbe97156c3661.jpg"
+                width="270"
+                height="260"
+                alt="Zdjęcie pana John Doe"
+              />
+              <figcaption><strong>John Doe</strong> <br />Marketing</figcaption>
+            </figure>
+          </li>
+
+          <li class="teamcard">
+            <figure>
+              <img
+                src="images/7ff905b2d5f56aa0d2b29aa48e997cd8.jpg"
+                width="270"
+                height="260"
+                alt="Zdjęcie pana John Doe"
+              />
+              <figcaption>
+                <strong>John Doe</strong> <br />
+                UI Designer
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
       </div>
     </main>
     <footer>
-      <!--Logo w <header> i stopce to link z tekstem, a nie obraz.-->
+      <a href="index.html" class="logo">WebStudio</a>
+      <address id="contact">
+        <b>m. Warszawa, Aleje Jerozolimskie 21</b><br />
+        <a href="mailto:info@example.com"></a>info@example.com <br />
+        <a href="tel:+48111111111">+48 111 111 111</a>
+      </address>
     </footer>
-    <!-- Sprawdzić czy wszystko działa-->
   </body>
 </html>
