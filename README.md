@@ -26,7 +26,7 @@ Znaczniki HTML
 «B6» Logo w <header> i stopce to link z tekstem, a nie obraz.
 «B7» Tag <nav> został użyty raz na stronie - w <header>.
 «B8» Kontakty w <header> (poczta i telefon) znajdują się poza tagiem <nav>.
-«B9» Tag <h1> został użyty jeden raz na stronie
+«B9» Tag h1 został użyty jeden raz na stronie
 «B10» Element z tekstem "Zamów usługę" - to przycisk z type="button".
 «B11» Nagłówki sekcji są oznaczone tagiem h2.
 «B12» Tagi <img> mają atrybuty wymiarów, co najmniej width i height.
